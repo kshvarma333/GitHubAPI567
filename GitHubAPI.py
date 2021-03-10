@@ -1,10 +1,11 @@
 import requests
 import json
+from typing import List
 
-def git_hub_api(name_of_repo:str) -> list:
-    answer:list = []
+def git_hub_api(name_of_repo:str) -> List:
+    answer:List = []
     url:str = f"https://api.github.com/users/{name_of_repo}/repos"
-    list_of_repos: list = requests.get(url).json()
+    list_of_repos: List = requests.get(url).json()
     for item in list_of_repos:
         repo_name = item['name']
         url2:str = f"https://api.github.com/repos/{name_of_repo}/{item['name']}/commits"
