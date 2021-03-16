@@ -1,1 +1,1 @@
-[![build status of master](https://travis-ci.org/kshvarma333/GitHubAPI567.svg?branch=master)](https://travis-ci.org/kshvarma333/GitHubAPI567)
+[![build status of master](https://travis-ci.com/kshvarma333/GitHubAPI567.svg?branch=master)](https://travis-ci.org/kshvarma333/GitHubAPI567)
