@@ -15,4 +15,3 @@ def git_hub_api(name_of_repo:str) -> List:
         answer.append(temp)
     return answer
 
-print(git_hub_api("richkempinski"))
